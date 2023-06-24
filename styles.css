@@ -57,6 +57,7 @@ span {
 .header i {
     font-size: 4.5rem;
     padding-right: 1.5rem;
+    color: #ad4305;
 }
 
 .counter-header {
@@ -70,6 +71,7 @@ span {
 .counter-header i {
     font-size: 3.8rem;
     padding-right: 1.5rem;
+    color: #7b731e;
 }
 
 .counter {
@@ -129,4 +131,61 @@ span {
 .entry-history {
     padding: 2rem;
     font-size: 2rem;
+}
+
+.entry-history i{
+    padding-right: 1rem;
+    font-size: 2.4rem;
+    color: #816565;
+}
+
+/* Responsive */
+@media(max-width: 1400px) {
+    html {
+        font-size: 9.5px;
+    }
+
+    .container {
+        width: 42%;
+    }
+}
+
+@media(max-width: 1200px) {
+    html {
+        font-size: 9px;
+    }
+
+    .container {
+        width: 50%;
+    }
+}
+
+@media(max-width: 992px) {
+    html {
+        font-size: 8.3px;
+    }
+
+    .container {
+        width: 56%;
+    }
+}
+
+@media(max-width: 768px) {
+    html {
+        font-size: 7.9px;
+    }
+
+    .container {
+        width: 72%;
+    }
+}
+
+@media(max-width: 576px) {
+    html {
+        font-size: 7.5px;
+    }
+
+    .container {
+        width: 95%;
+    }
 }

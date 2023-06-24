@@ -9,7 +9,7 @@ function increment() {
 
 function save() {
     let countStr = visitors + " - ";
-    entHistory.textContent += countStr;
+    entHistory.innerHTML += countStr;
     visitors = 0;
     counter.innerText = visitors;
 }
